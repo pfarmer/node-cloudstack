@@ -1,32 +1,35 @@
 {
-    "name": "cloudstack",
-    "version": "0.2.1",
-    "author": "Chatham Financial <oss@chathamfinancial.com>",
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/chatham/node-cloudstack.git"
+  "name": "cloudstack",
+  "version": "0.2.1",
+  "author": "Chatham Financial <oss@chathamfinancial.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chatham/node-cloudstack.git"
+  },
+  "description": "An API wrapper for CloudStack.",
+  "contributors": [
+    {
+      "name": "Tim Savery",
+      "email": "tsavery@chathamfinancial.com"
     },
-    "description": "An API wrapper for CloudStack.",
-    "contributors": [{
-        "name": "Tim Savery",
-        "email": "tsavery@chathamfinancial.com"
-      },{
-        "name": "Chris Hoffman",
-        "email": "choffman@chathamfinancial.com"
-      }
-    ],
-    "keywords": [
-      "cloudstack",
-      "api",
-      "cloud"
-    ],
-    "dependencies": {
-      "crypto": "0.0.3",
-      "request": "2.9.203"
-    },
-    "license": "MIT",
-    "main": "./lib/cloudstack",
-    "engines": {
-      "node": ">= 0.4.0"
+    {
+      "name": "Chris Hoffman",
+      "email": "choffman@chathamfinancial.com"
     }
+  ],
+  "keywords": [
+    "cloudstack",
+    "api",
+    "cloud"
+  ],
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "jest": "^22.4.4",
+    "request": "^2.9.203"
+  },
+  "license": "MIT",
+  "main": "./lib/cloudstack",
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
